@@ -651,9 +651,14 @@
         "filename": "ethernet.kicad_sch",
         "name": "Ethernet",
         "uuid": "50fc1003-a0a0-472d-8150-025bc0e33e7e"
+      },
+      {
+        "filename": "usb_ethernet_uart_bridge.kicad_sch",
+        "name": "USB_Ethernet_UART_Bridge",
+        "uuid": "529d4a15-ff26-4357-96dd-8bb228b96601"
       }
     ],
-    "used_designators": "SW1,TP1-7,R1-7,L1,J1-4,C1,C3-12,#PWR1-20,IC1-2",
+    "used_designators": "U1,J5-7,SW2,D1,C13-17,R8-12,Y1,#PWR17,#PWR21-30",
     "variants": []
   },
   "sheets": [
@@ -664,6 +669,10 @@
     [
       "50fc1003-a0a0-472d-8150-025bc0e33e7e",
       "Ethernet"
+    ],
+    [
+      "529d4a15-ff26-4357-96dd-8bb228b96601",
+      "USB_Ethernet_UART_Bridge"
     ]
   ],
   "text_variables": {},
