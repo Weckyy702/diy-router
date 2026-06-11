@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "HLK7628N"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "HLK7628N")
+        (spec "default")
+    )
+)

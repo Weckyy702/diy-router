@@ -1,0 +1,9 @@
+Manufacturer=Hi-Link
+PartNumber=HLK-7628N
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=59
+Version=1.3
+Released=2020-05-13 09:13:42
+Downloaded=2026-06-10 21:48:27
+3D=Y

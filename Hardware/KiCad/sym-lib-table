@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "HLK-7628N") (type "KiCad") (uri "${KIPRJMOD}/LIB_HLK-7628N/HLK-7628N/KiCad/HLK-7628N.kicad_sym") (options "") (descr ""))
+)
