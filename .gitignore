@@ -1,3 +1,5 @@
 Hardware/KiCad/DIY_Router-backups/
 *.lck
 *.lck
+.direnv/
+.history/
