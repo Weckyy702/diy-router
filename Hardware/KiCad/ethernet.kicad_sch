@@ -2067,7 +2067,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "WAN (Port 0)"
+	(text "LAN 3 (Port 3)"
 		(exclude_from_sim no)
 		(at 108.458 24.384 0)
 		(effects
@@ -2096,6 +2096,16 @@
 			)
 		)
 		(uuid "cef6fa3c-1142-4ea6-b6b3-08b00d556a3e")
+	)
+	(text "LAN 4 (Port 4)"
+		(exclude_from_sim no)
+		(at 224.536 24.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f24e8c2e-f852-498d-a8c4-53faa7acf93b")
 	)
 	(junction
 		(at 123.19 110.49)

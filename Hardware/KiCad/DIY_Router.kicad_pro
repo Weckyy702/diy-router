@@ -656,9 +656,19 @@
         "filename": "usb_ethernet_uart_bridge.kicad_sch",
         "name": "USB_Ethernet_UART_Bridge",
         "uuid": "529d4a15-ff26-4357-96dd-8bb228b96601"
+      },
+      {
+        "filename": "mini_pcie_sim.kicad_sch",
+        "name": "Mini_PCIe_SIM",
+        "uuid": "a9a9d6c9-5204-4f0a-905b-de1611b8392e"
+      },
+      {
+        "filename": "usb_hub.kicad_sch",
+        "name": "USB_HUB",
+        "uuid": "e7060ada-4117-4611-abe2-1a97a47c74c4"
       }
     ],
-    "used_designators": "R13,J7,C18-19,#PWR35-37",
+    "used_designators": "#PWR67,U5",
     "variants": []
   },
   "sheets": [
@@ -673,6 +683,14 @@
     [
       "529d4a15-ff26-4357-96dd-8bb228b96601",
       "USB_Ethernet_UART_Bridge"
+    ],
+    [
+      "a9a9d6c9-5204-4f0a-905b-de1611b8392e",
+      "Mini_PCIe_SIM"
+    ],
+    [
+      "e7060ada-4117-4611-abe2-1a97a47c74c4",
+      "USB_HUB"
     ]
   ],
   "text_variables": {},
