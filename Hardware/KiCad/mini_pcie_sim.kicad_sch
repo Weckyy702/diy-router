@@ -338,6 +338,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -7596,6 +7797,291 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "WS-SLSU:450405020524"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "450405020524"
+				(at 12.7 22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Switch_SMD_Wurth:SW_Wurth_WS-SLSU_450405020524"
+				(at 12.7 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/450405020524.pdf?ki"
+				(at 12.7 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "Mini Slide Switch Same Side Connection 8.7x3.0 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 12.7 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer URL" "https://www.we-online.com"
+				(at 12.7 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Created Date" "20260316"
+				(at 12.7 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Series" "WS-SLSU"
+				(at 12.7 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Part Number" "450405020524"
+				(at 12.7 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Mounting Technology" "SMT"
+				(at 12.7 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Operation Force(g)" "225 g"
+				(at 12.7 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*WS-SLSU*450405020524*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "450405020524_1_0"
+				(polyline
+					(pts
+						(xy -0.3556 0.4826) (xy 1.397 2.6924)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "com"
+					(at -0.5588 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "450405020524_1_1"
+				(circle
+					(center -0.762 0)
+					(radius 0.254)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -7871,6 +8357,16 @@
 		)
 		(uuid "1ee2c4b4-af35-4250-9615-bdd2ccf12f50")
 	)
+	(text "Wireless card has internal pull up\nfor W_DISABLE"
+		(exclude_from_sim no)
+		(at 130.048 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "47a68e51-5b7a-4d8d-ba09-039ad76fe8c1")
+	)
 	(text "SIM ESD and EMI filter"
 		(exclude_from_sim no)
 		(at 144.78 22.352 0)
@@ -7883,7 +8379,7 @@
 	)
 	(text "Mini PCIe mounting holes"
 		(exclude_from_sim no)
-		(at 140.97 100.076 0)
+		(at 171.45 101.346 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7900,6 +8396,26 @@
 			)
 		)
 		(uuid "af349b75-c6cc-4107-ad4c-9602a106e386")
+	)
+	(text "Wireless disable switch"
+		(exclude_from_sim no)
+		(at 105.41 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b0cafa8b-fd3f-41b1-a4ea-2ea19308575f")
+	)
+	(text "WWAN LED"
+		(exclude_from_sim no)
+		(at 229.108 101.092 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b4e70c71-c59f-43f1-85cb-6754d9097f02")
 	)
 	(junction
 		(at 205.74 55.88)
@@ -7998,6 +8514,10 @@
 		(uuid "74653e3e-eeb4-4eca-b630-a91731b67f63")
 	)
 	(no_connect
+		(at 110.49 124.46)
+		(uuid "a112eed8-a5c2-4b8f-a995-512cf53339dc")
+	)
+	(no_connect
 		(at 92.71 88.9)
 		(uuid "a48e82f1-f007-4e8e-b01c-32418ffa5d5a")
 	)
@@ -8035,7 +8555,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 111.76) (xy 156.21 113.03)
+			(xy 186.69 113.03) (xy 186.69 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8365,6 +8885,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 116.84) (xy 232.41 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77048100-b0a6-4300-bb58-9e60d7e28699")
+	)
+	(wire
+		(pts
 			(xy 87.63 58.42) (xy 92.71 58.42)
 		)
 		(stroke
@@ -8392,6 +8922,16 @@
 			(type default)
 		)
 		(uuid "7ffbc013-25ff-4df8-a00f-d197c52314f3")
+	)
+	(wire
+		(pts
+			(xy 237.49 116.84) (xy 243.84 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8142404a-0268-4e96-b9c0-ad989a12b6e0")
 	)
 	(wire
 		(pts
@@ -8472,6 +9012,26 @@
 			(type default)
 		)
 		(uuid "8938b6c9-4e88-426b-b72b-ee0e470c286a")
+	)
+	(wire
+		(pts
+			(xy 251.46 116.84) (xy 259.08 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "926329f1-9e68-4eaf-9cfb-f507b7191f6b")
+	)
+	(wire
+		(pts
+			(xy 110.49 129.54) (xy 119.38 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96578a0b-f6e4-40a8-92cd-4a471622b7cd")
 	)
 	(wire
 		(pts
@@ -8605,6 +9165,26 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 127) (xy 101.6 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2cbe6d5-8bd2-420d-92f2-8858440ac989")
+	)
+	(wire
+		(pts
+			(xy 227.33 111.76) (xy 227.33 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c980cfdd-7d30-413d-a656-0142054f55aa")
+	)
+	(wire
+		(pts
 			(xy 86.36 45.72) (xy 92.71 45.72)
 		)
 		(stroke
@@ -8645,7 +9225,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 111.76) (xy 130.81 113.03)
+			(xy 161.29 113.03) (xy 161.29 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8685,6 +9265,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 129.54) (xy 119.38 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2da9292-5eff-4523-9c53-29f873bf7311")
+	)
+	(wire
+		(pts
 			(xy 205.74 60.96) (xy 215.9 60.96)
 		)
 		(stroke
@@ -8692,6 +9282,16 @@
 			(type default)
 		)
 		(uuid "e32bf0cc-13ad-4d28-85b1-c1785cc9e27b")
+	)
+	(wire
+		(pts
+			(xy 88.9 127) (xy 92.71 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5131b66-25a9-4ed2-969b-43fa8a342fc8")
 	)
 	(wire
 		(pts
@@ -8793,6 +9393,16 @@
 		)
 		(uuid "17dea981-78bd-4dd1-8acd-ad42780754fb")
 	)
+	(label "LED_WWAN"
+		(at 259.08 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ec715ed-e661-48df-9e56-0bf6658a46ed")
+	)
 	(label "USIM_RST"
 		(at 123.19 40.64 180)
 		(effects
@@ -8852,6 +9462,16 @@
 			(justify right bottom)
 		)
 		(uuid "9bdf1b4a-52b7-476a-a222-0b030a2aec8c")
+	)
+	(label "W_DISABLE"
+		(at 88.9 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9eedab9f-eafe-45cf-b06e-917b64659c0b")
 	)
 	(label "USIM_CLK"
 		(at 43.18 63.5 180)
@@ -9888,6 +10508,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 95.25 127 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "23bf93df-e762-4e30-b02e-79af0ac520b6")
+		(property "Reference" "R23"
+			(at 93.98 128.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 96.52 128.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 95.25 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 95.25 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f746e41b-66fd-40e5-a064-4c20a823b313")
+		)
+		(pin "2"
+			(uuid "4700978c-e5c7-4e30-a9ae-eda1db77b287")
+		)
+		(instances
+			(project "DIY_Router"
+				(path "/a9a9d6c9-5204-4f0a-905b-de1611b8392e"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 74.93 53.34 270)
 		(unit 1)
@@ -10550,7 +11251,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 156.21 109.22 0)
+		(at 186.69 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10561,7 +11262,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c169041-5c45-4b66-9afd-eb8accd15833")
 		(property "Reference" "H6"
-			(at 158.75 106.6799 0)
+			(at 189.23 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10572,7 +11273,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 158.75 109.2199 0)
+			(at 189.23 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10583,7 +11284,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.7mm_Pad_TopBottom"
-			(at 156.21 109.22 0)
+			(at 186.69 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10594,7 +11295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 109.22 0)
+			(at 186.69 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10605,7 +11306,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 156.21 109.22 0)
+			(at 186.69 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10622,6 +11323,97 @@
 			(project "DIY_Router"
 				(path "/a9a9d6c9-5204-4f0a-905b-de1611b8392e"
 					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 247.65 116.84 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d05f564-d089-4377-bc64-289fdcef3f63")
+		(property "Reference" "D2"
+			(at 249.2375 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 249.2375 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 247.65 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 247.65 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 247.65 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "67c1ceb9-4e6e-4d80-a157-14ec4bf81f6c")
+		)
+		(pin "1"
+			(uuid "b6a34179-c759-4868-b015-a78b6feaf633")
+		)
+		(instances
+			(project "DIY_Router"
+				(path "/a9a9d6c9-5204-4f0a-905b-de1611b8392e"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -10708,7 +11500,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 113.03 0)
+		(at 186.69 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10719,7 +11511,7 @@
 		(fields_autoplaced yes)
 		(uuid "81ceeb91-7139-41dc-ad01-0ef6f03a583f")
 		(property "Reference" "#PWR041"
-			(at 156.21 119.38 0)
+			(at 186.69 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10730,7 +11522,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 118.11 0)
+			(at 186.69 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10740,7 +11532,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 113.03 0)
+			(at 186.69 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10751,7 +11543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 113.03 0)
+			(at 186.69 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10762,7 +11554,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 113.03 0)
+			(at 186.69 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11102,6 +11894,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 227.33 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b94bf5b6-a37f-4341-8fbc-c2f9cc66c6e6")
+		(property "Reference" "#PWR055"
+			(at 227.33 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 227.33 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 227.33 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8f38d15-46e7-40d1-87da-e92ca35cb62b")
+		)
+		(instances
+			(project "DIY_Router"
+				(path "/a9a9d6c9-5204-4f0a-905b-de1611b8392e"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 191.77 60.96 0)
 		(unit 1)
@@ -11184,7 +12054,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 113.03 0)
+		(at 161.29 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11195,7 +12065,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9f4ff75-6999-4cab-be6a-d8f38fee62e3")
 		(property "Reference" "#PWR040"
-			(at 130.81 119.38 0)
+			(at 161.29 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11206,7 +12076,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 118.11 0)
+			(at 161.29 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11216,7 +12086,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 113.03 0)
+			(at 161.29 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11227,7 +12097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 113.03 0)
+			(at 161.29 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11238,7 +12108,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 113.03 0)
+			(at 161.29 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11255,6 +12125,255 @@
 			(project "DIY_Router"
 				(path "/a9a9d6c9-5204-4f0a-905b-de1611b8392e"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WS-SLSU:450405020524")
+		(at 105.41 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c55d5c4e-38df-494e-afd2-2e88ed4a0690")
+		(property "Reference" "SW3"
+			(at 105.3623 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "450405020524"
+			(at 118.11 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "WS-SLSU:SW_Wurth_WS-SLSU_450405020524"
+			(at 118.11 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/450405020524.pdf?ki"
+			(at 118.11 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Mini Slide Switch Same Side Connection 8.7x3.0 mm"
+			(at 105.41 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 118.11 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 118.11 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Created Date" "20260316"
+			(at 118.11 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Series" "WS-SLSU"
+			(at 118.11 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "450405020524"
+			(at 118.11 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 118.11 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Operation Force(g)" "225 g"
+			(at 118.11 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3"
+			(uuid "dcd89bb7-7a3d-4742-83ac-81512989eace")
+		)
+		(pin "1"
+			(uuid "63383e93-3f3f-41a3-80a6-7ac2b83ac18a")
+		)
+		(pin "2"
+			(uuid "bfcec683-9363-44a6-9c8a-a9f3c671401a")
+		)
+		(instances
+			(project "DIY_Router"
+				(path "/a9a9d6c9-5204-4f0a-905b-de1611b8392e"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c91dc865-81a1-4375-ba25-859ae5de3018")
+		(property "Reference" "#PWR068"
+			(at 119.38 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64de3c63-f418-4d2f-a2aa-0b4715d5a6d7")
+		)
+		(instances
+			(project "DIY_Router"
+				(path "/a9a9d6c9-5204-4f0a-905b-de1611b8392e"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -11789,7 +12908,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 130.81 109.22 0)
+		(at 161.29 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11800,7 +12919,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9c77ae7-0d91-411c-ad3e-3ddc6af3881c")
 		(property "Reference" "H5"
-			(at 133.35 106.6799 0)
+			(at 163.83 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11811,7 +12930,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 133.35 109.2199 0)
+			(at 163.83 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11822,7 +12941,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.7mm_Pad_TopBottom"
-			(at 130.81 109.22 0)
+			(at 161.29 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11833,7 +12952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 109.22 0)
+			(at 161.29 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11844,7 +12963,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 130.81 109.22 0)
+			(at 161.29 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12255,6 +13374,87 @@
 			(project "DIY_Router"
 				(path "/a9a9d6c9-5204-4f0a-905b-de1611b8392e"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 234.95 116.84 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fcb1ed5a-83f0-4879-a1c5-bc07a8fd2162")
+		(property "Reference" "R19"
+			(at 233.68 118.618 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220"
+			(at 236.22 118.618 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 234.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 234.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "48037d29-7810-4a66-a2c4-37259c19b925")
+		)
+		(pin "2"
+			(uuid "4054b6c0-0218-4657-a05f-fb2021cea896")
+		)
+		(instances
+			(project "DIY_Router"
+				(path "/a9a9d6c9-5204-4f0a-905b-de1611b8392e"
+					(reference "R19")
 					(unit 1)
 				)
 			)

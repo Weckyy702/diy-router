@@ -7,4 +7,6 @@
 	(lib (name "SIM8066_6") (type "KiCad") (uri "${KIPRJMOD}/SIM8066_6_1_14_01_A/KiCADv6/2026-06-16_23-12-28.kicad_sym") (options "") (descr ""))
 	(lib (name "USB2422T_MJ") (type "KiCad") (uri "${KIPRJMOD}/USB2422T_MJ/KiCADv6/2026-06-17_18-56-23.kicad_sym") (options "") (descr ""))
 	(lib (name "EMIF03-SIM02M8") (type "KiCad") (uri "${KIPRJMOD}/EMIF03-SIM02M8/EMIF03-SIM02M8.kicad_sym") (options "") (descr ""))
+	(lib (name "WS-SLSU") (type "KiCad") (uri "${KIPRJMOD}/KiCad_WS-SLSU (rev26b)/symbols/Switch_Wurth_WS-SLSU.kicad_sym") (options "") (descr ""))
+	(lib (name "WS-TASU") (type "KiCad") (uri "${KIPRJMOD}/KiCad_WS-TASU (rev26b)/symbols/Switch_Wurth_WS-TASU.kicad_sym") (options "") (descr ""))
 )
