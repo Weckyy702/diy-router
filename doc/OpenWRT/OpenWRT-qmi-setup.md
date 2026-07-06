@@ -26,6 +26,7 @@ Go to "Interfaces"
 Click on "Add"
 Select "Protocol" -> "QMI Cellular"
 Add "Device" -> "wwan0" or "/dev/cdc-wmd0"
+Set "Firewall Settings" to "wan"
 
 ### For Aldi Talk only
 APN = "internet.eplus.de"
