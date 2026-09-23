@@ -2757,7 +2757,7 @@
 			)
 		)
 	)
-	(global_label "MDI_TN_P0"
+	(global_label "MDI_P0_TN"
 		(shape input)
 		(at 27.94 147.32 180)
 		(fields_autoplaced yes)
@@ -2829,7 +2829,7 @@
 			)
 		)
 	)
-	(global_label "MDI_RN_P0"
+	(global_label "MDI_P0_RN"
 		(shape input)
 		(at 27.94 160.02 180)
 		(fields_autoplaced yes)
@@ -2853,7 +2853,7 @@
 			)
 		)
 	)
-	(global_label "MDI_TP_P0"
+	(global_label "MDI_P0_TP"
 		(shape input)
 		(at 27.94 153.67 180)
 		(fields_autoplaced yes)
@@ -2901,7 +2901,7 @@
 			)
 		)
 	)
-	(global_label "MDI_RP_P0"
+	(global_label "MDI_P0_RP"
 		(shape input)
 		(at 27.94 166.37 180)
 		(fields_autoplaced yes)

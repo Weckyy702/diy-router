@@ -3107,7 +3107,7 @@
 		)
 		(uuid "fdb0f2fa-0ffa-4308-b28a-d97eda1fc3a0")
 	)
-	(global_label "MDI_TP_P2"
+	(global_label "MDI_P2_TP"
 		(shape input)
 		(at 77.47 83.82 180)
 		(fields_autoplaced yes)
@@ -3155,7 +3155,7 @@
 			)
 		)
 	)
-	(global_label "MDI_RN_P4"
+	(global_label "MDI_P4_RN"
 		(shape input)
 		(at 201.93 50.8 180)
 		(fields_autoplaced yes)
@@ -3179,7 +3179,7 @@
 			)
 		)
 	)
-	(global_label "MDI_RP_P3"
+	(global_label "MDI_P3_RP"
 		(shape input)
 		(at 77.47 144.78 180)
 		(fields_autoplaced yes)
@@ -3227,7 +3227,7 @@
 			)
 		)
 	)
-	(global_label "MDI_RN_P3"
+	(global_label "MDI_P3_RN"
 		(shape input)
 		(at 77.47 149.86 180)
 		(fields_autoplaced yes)
@@ -3251,7 +3251,7 @@
 			)
 		)
 	)
-	(global_label "MDI_RP_P1"
+	(global_label "MDI_P1_RP"
 		(shape input)
 		(at 77.47 45.72 180)
 		(fields_autoplaced yes)
@@ -3275,7 +3275,7 @@
 			)
 		)
 	)
-	(global_label "MDI_TP_P1"
+	(global_label "MDI_P1_TP"
 		(shape input)
 		(at 77.47 38.1 180)
 		(fields_autoplaced yes)
@@ -3299,7 +3299,7 @@
 			)
 		)
 	)
-	(global_label "MDI_RP_P4"
+	(global_label "MDI_P4_RP"
 		(shape input)
 		(at 201.93 45.72 180)
 		(fields_autoplaced yes)
@@ -3371,7 +3371,7 @@
 			)
 		)
 	)
-	(global_label "MDI_RN_P2"
+	(global_label "MDI_P2_RN"
 		(shape input)
 		(at 77.47 96.52 180)
 		(fields_autoplaced yes)
@@ -3395,7 +3395,7 @@
 			)
 		)
 	)
-	(global_label "MDI_TP_P4"
+	(global_label "MDI_P4_TP"
 		(shape input)
 		(at 201.93 38.1 180)
 		(fields_autoplaced yes)
@@ -3419,7 +3419,7 @@
 			)
 		)
 	)
-	(global_label "MDI_RP_P2"
+	(global_label "MDI_P2_RP"
 		(shape input)
 		(at 77.47 91.44 180)
 		(fields_autoplaced yes)
@@ -3443,7 +3443,7 @@
 			)
 		)
 	)
-	(global_label "MDI_TN_P3"
+	(global_label "MDI_P3_TN"
 		(shape input)
 		(at 77.47 142.24 180)
 		(fields_autoplaced yes)
@@ -3467,7 +3467,7 @@
 			)
 		)
 	)
-	(global_label "MDI_TN_P1"
+	(global_label "MDI_P1_TN"
 		(shape input)
 		(at 77.47 43.18 180)
 		(fields_autoplaced yes)
@@ -3491,7 +3491,7 @@
 			)
 		)
 	)
-	(global_label "MDI_TN_P2"
+	(global_label "MDI_P2_TN"
 		(shape input)
 		(at 77.47 88.9 180)
 		(fields_autoplaced yes)
@@ -3515,7 +3515,7 @@
 			)
 		)
 	)
-	(global_label "MDI_TP_P3"
+	(global_label "MDI_P3_TP"
 		(shape input)
 		(at 77.47 137.16 180)
 		(fields_autoplaced yes)
@@ -3539,7 +3539,7 @@
 			)
 		)
 	)
-	(global_label "MDI_RN_P1"
+	(global_label "MDI_P1_RN"
 		(shape input)
 		(at 77.47 50.8 180)
 		(fields_autoplaced yes)
@@ -3563,7 +3563,7 @@
 			)
 		)
 	)
-	(global_label "MDI_TN_P4"
+	(global_label "MDI_P4_TN"
 		(shape input)
 		(at 201.93 43.18 180)
 		(fields_autoplaced yes)
