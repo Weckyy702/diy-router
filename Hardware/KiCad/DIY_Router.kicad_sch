@@ -7008,26 +7008,6 @@
 		(uuid "fe226373-c67d-4417-a17c-1592bc058583")
 	)
 	(label "SPI_MISO"
-		(at 215.9 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "10e2127f-1b67-43d8-9784-196bc13adc91")
-	)
-	(label "I2C_SDA"
-		(at 236.22 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "246aecc3-1712-4730-8ea7-a4777bcd0d02")
-	)
-	(label "SPI_MISO"
 		(at 58.42 166.37 180)
 		(effects
 			(font
@@ -7036,16 +7016,6 @@
 			(justify right bottom)
 		)
 		(uuid "2ec667d8-72c1-436d-a5ae-e1d7ae6ca909")
-	)
-	(label "SPI_CS1"
-		(at 215.9 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "503ef6ed-8108-4e33-a6e0-a18f46d7305a")
 	)
 	(label "USB_C_DP"
 		(at 166.37 91.44 0)
@@ -7066,6 +7036,26 @@
 			(justify left bottom)
 		)
 		(uuid "50c9393b-042a-4c46-a22a-031cd6bebe7d")
+	)
+	(label "SPI_CLK"
+		(at 215.9 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "514d0181-1b4c-4b0b-9eff-337eee0885db")
+	)
+	(label "SPI_MOSI"
+		(at 215.9 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "55b0bcc8-0918-4216-b823-48b0b3f2d23c")
 	)
 	(label "SPI_CLK"
 		(at 58.42 163.83 180)
@@ -7097,6 +7087,16 @@
 		)
 		(uuid "63dcf78b-a6ee-4595-8905-aae04a8606de")
 	)
+	(label "I2C_SCL"
+		(at 236.22 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d8b4978-ad8c-4dc1-b2d7-aa2732642da1")
+	)
 	(label "USB_C_DP"
 		(at 71.12 60.96 0)
 		(effects
@@ -7117,6 +7117,16 @@
 		)
 		(uuid "8996d064-f682-435f-b751-6e44ed257643")
 	)
+	(label "I2C_SDA"
+		(at 215.9 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8f633394-bfb0-40da-a4f8-e3481632064d")
+	)
 	(label "USB_C_DN"
 		(at 30.48 60.96 180)
 		(effects
@@ -7126,6 +7136,16 @@
 			(justify right bottom)
 		)
 		(uuid "a2398efd-c3f9-42c6-9225-2a8911bbed21")
+	)
+	(label "GPIO0"
+		(at 236.22 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac05b2f9-d64a-40fe-b35c-6a4c2cc88232")
 	)
 	(label "USB_C_DN"
 		(at 71.12 58.42 0)
@@ -7147,6 +7167,16 @@
 		)
 		(uuid "adf11952-de54-4950-9aeb-fa4119228dcc")
 	)
+	(label "SPI_CS1"
+		(at 236.22 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b647b5ff-5445-4f8e-b292-67c4459b469a")
+	)
 	(label "I2C_SDA"
 		(at 58.42 158.75 180)
 		(effects
@@ -7157,16 +7187,6 @@
 		)
 		(uuid "bb2bdaea-7706-47a9-a512-d9d11dd1b132")
 	)
-	(label "SPI_CLK"
-		(at 215.9 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bc9b72b4-d3c7-4389-beff-71b710d57032")
-	)
 	(label "SPI_CS1"
 		(at 58.42 161.29 180)
 		(effects
@@ -7176,16 +7196,6 @@
 			(justify right bottom)
 		)
 		(uuid "bd777dc4-7fd9-4f49-af6c-eae0ba5fb8f2")
-	)
-	(label "GPIO0"
-		(at 236.22 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c18bc894-7ced-48b8-b9a5-531c32cc89de")
 	)
 	(label "SPI_MOSI"
 		(at 58.42 168.91 180)
@@ -7207,25 +7217,15 @@
 		)
 		(uuid "dd1161e1-8e1a-496c-9c72-7f9e2002a1aa")
 	)
-	(label "SPI_MOSI"
-		(at 215.9 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f10727d4-294a-41bd-b39e-98c890c1e4c4")
-	)
-	(label "I2C_SCL"
-		(at 236.22 35.56 0)
+	(label "SPI_MISO"
+		(at 236.22 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "fb99a849-9425-450f-a0a6-fccf79f6c22c")
+		(uuid "ec303fb6-49d8-48b5-b2a0-8c5241efe31a")
 	)
 	(global_label "MDI_P1_TN"
 		(shape input)
@@ -7611,30 +7611,6 @@
 			)
 		)
 	)
-	(global_label "UART_TXD0"
-		(shape input)
-		(at 236.22 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "53e7c2d5-9857-4929-8b74-259bec64b19a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.4861 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "MDI_P4_RN"
 		(shape input)
 		(at 109.22 148.59 0)
@@ -7960,6 +7936,30 @@
 		(uuid "ab2d221b-1be2-4834-ab86-4737c7d384a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 132.4211 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "UART_TXD0"
+		(shape input)
+		(at 215.9 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae064b61-0022-4b9f-a6bf-1ceeb9f93088")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 202.6339 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8328,6 +8328,76 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 149.86 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "49e67811-4ce4-448c-abf9-2f25783093e3")
+		(property "Net Class" "USB"
+			(at 150.5585 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -16.51 -48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 149.86 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9386510-ed3c-49a8-8d23-dc4f5399d6cf")
+		(property "Net Class" "USB"
+			(at 150.5585 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -16.51 -50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
 			)
 		)
 	)

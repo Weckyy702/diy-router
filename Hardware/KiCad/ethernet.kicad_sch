@@ -4928,6 +4928,7 @@
 	(symbol
 		(lib_id "Connector:RJ45_Hanrun_HR911105A_Horizontal")
 		(at 100.33 91.44 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4935,10 +4936,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ac21f246-f943-4d37-abe2-07e492592f99")
 		(property "Reference" "J3"
-			(at 101.6 77.47 0)
+			(at 101.6 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4948,7 +4948,7 @@
 			)
 		)
 		(property "Value" "RJ45_Hanrun_HR911105A_Horizontal"
-			(at 101.6 80.01 0)
+			(at 101.6 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4958,7 +4958,7 @@
 			)
 		)
 		(property "Footprint" "Connector_RJ:RJ45_Hanrun_HR911105A_Horizontal"
-			(at 100.33 78.74 0)
+			(at 100.33 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4969,7 +4969,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811141815_HANRUN-Zhongshan-HanRun-Elec-HR911105A_C12074.pdf"
-			(at 100.33 76.2 0)
+			(at 100.33 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
