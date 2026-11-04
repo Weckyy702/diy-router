@@ -66,7 +66,7 @@
           "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_spoke_width": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -159,9 +159,9 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0889,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.2,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -210,10 +210,7 @@
         }
       ],
       "track_widths": [
-        0.0,
-        0.127,
-        0.254,
-        0.508
+        0.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -527,16 +524,6 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "line_style": 0,
-        "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "USB",
-        "wire_width": 6
       }
     ],
     "meta": {
@@ -551,12 +538,7 @@
         "USB"
       ]
     },
-    "netclass_patterns": [
-      {
-        "netclass": "USB",
-        "pattern": "USB_C_D*"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -736,25 +718,6 @@
     "meta": {
       "version": 0
     },
-    "tuning_profiles_impedance_geometric": [
-      {
-        "enable_time_domain_tuning": true,
-        "layer_entries": [
-          {
-            "bottom_reference_layer": "In1.Cu",
-            "delay": 0,
-            "diff_pair_gap": 0,
-            "signal_layer": "F.Cu",
-            "top_reference_layer": "UNDEFINED",
-            "width": 0
-          }
-        ],
-        "profile_name": "USB",
-        "target_impedance": 90.0,
-        "type": 1,
-        "via_overrides": [],
-        "via_prop_delay": 0
-      }
-    ]
+    "tuning_profiles_impedance_geometric": []
   }
 }
