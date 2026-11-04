@@ -1785,6 +1785,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO: check footprint orientation if the LED is sideways"
+		(exclude_from_sim no)
+		(at 177.8 118.618 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "251cf3f6-1e8a-4d65-a273-e26ee7d5de97")
+	)
 	(text "Crystal"
 		(exclude_from_sim no)
 		(at 235.712 67.31 0)

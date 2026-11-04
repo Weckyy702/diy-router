@@ -4769,6 +4769,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO: ESD in- and outputs are the same signal"
+		(exclude_from_sim no)
+		(at 158.496 98.552 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "28a12fef-0718-4dbb-abc4-c1737976c972")
+	)
 	(text "GPIO pin header"
 		(exclude_from_sim no)
 		(at 225.298 20.828 0)
