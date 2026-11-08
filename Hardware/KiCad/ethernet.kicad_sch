@@ -3878,7 +3878,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1kR"
 			(at 132.08 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4711,7 +4711,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1kR"
 			(at 132.08 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5379,7 +5379,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1kR"
 			(at 256.54 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5779,7 +5779,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1kR"
 			(at 132.08 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)

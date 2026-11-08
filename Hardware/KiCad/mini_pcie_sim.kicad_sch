@@ -10811,7 +10811,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kR"
 			(at 102.87 128.778 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12025,10 +12025,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "994adc38-b98d-42aa-92ca-b20c5d167d2a")
 		(property "Reference" "TP3"
-			(at 81.788 38.1 90)
+			(at 84.836 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12038,7 +12037,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 81.788 40.64 90)
+			(at 74.93 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12431,7 +12430,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "15k"
+		(property "Value" "15kR"
 			(at 189.992 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13224,18 +13223,6 @@
 				(justify bottom)
 			)
 		)
-		(property "PACKAGE" "UFDFN-8 STMicroelectronics"
-			(at 144.78 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "PRICE" "None"
 			(at 144.78 45.72 0)
 			(hide yes)
@@ -13918,7 +13905,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "220R"
 			(at 236.22 118.618 0)
 			(show_name no)
 			(do_not_autoplace no)

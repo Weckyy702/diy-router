@@ -3897,7 +3897,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100kR"
 			(at 246.38 76.454 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4227,7 +4227,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "12k 1%"
+		(property "Value" "12kR 1%"
 			(at 209.296 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4315,7 +4315,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "50kR"
 			(at 219.456 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4831,7 +4831,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "50kR"
 			(at 228.346 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5121,7 +5121,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100kR"
 			(at 246.38 66.294 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5730,7 +5730,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "50kR"
 			(at 210.566 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
